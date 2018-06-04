@@ -1,6 +1,8 @@
 # js-hacks
 Showcase some of my hacks to improve the usability of my needs
 
+Using Chrome plugin: [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija)
+
 ## [LintCode](https://leetcode.com/problemset/all/?status=Todo&difficulty=Medium)
 Overwrite pick one button so that it picks from the current filter list instead of going to the random/all link.
 

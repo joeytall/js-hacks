@@ -1,10 +1,11 @@
-$('.pick-one-btn a').attr('href', '#');
-$('.pick-one-btn').on('click', function(){
-  var questions = getQuestions(),
-      questionLink = questions[_.random(0, questions.length)],
-      url = location.origin + questionLink;
-  window.open(url);
-});
+setTimeout(function(){
+    let Questions = getQuestions();
+    let random = setInterval(function(){
+        var questionLink = Questions[_.random(0, Questions.length)],
+            url = location.origin + questionLink;
+      $('.pick-one-btn a').attr('href', url);
+    }, 1000);
+}, 200);
 
 function getQuestions(){
   var questions = [];
@@ -15,4 +16,3 @@ function getQuestions(){
   });
   return questions;
 }
-

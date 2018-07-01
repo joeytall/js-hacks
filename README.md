@@ -1,5 +1,5 @@
 # js-hacks
-Showcase some of my hacks to improve the usability of my needs
+Showcase some of my hacks to improve the usability for my needs
 
 Using Chrome plugin: [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija)
 
